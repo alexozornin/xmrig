@@ -7,17 +7,10 @@
     "doc": "doc"
   },
   "scripts": {
-    "build": "node scripts/generate_cl.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xmrig/xmrig.git"
+    "build": "bash gccbuild.sh",
+    "install": "npm run build"
   },
   "keywords": [],
   "author": "",
-  "license": "GPLv3",
-  "bugs": {
-    "url": "https://github.com/xmrig/xmrig/issues"
-  },
-  "homepage": "https://github.com/xmrig/xmrig#readme"
+  "license": "GPLv3"
 }
